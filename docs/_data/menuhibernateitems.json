@@ -1,0 +1,24 @@
+[{
+	"link": "/formation/hibernate/",
+	"title": "Accueil Hibernate"
+},
+{
+	"link": "/formation/hibernate/usefull-links/",
+	"title": "Liens utiles Hibernate"
+},
+{
+	"link": "/formation/hibernate/jpa-or-hibernate/",
+	"title": "JPA ou Hibernate"
+},
+{
+	"link": "/formation/hibernate/annotations/",
+	"title": "Les annotations"
+},
+{
+	"link": "/formation/hibernate/logs-manager/",
+	"title": "Gestion des logs"
+},
+{
+	"link": "/formation/hibernate/converter/",
+	"title": "Convertisseur"
+}]

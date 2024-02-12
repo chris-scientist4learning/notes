@@ -1,0 +1,5 @@
+{% for item in site.data.menuhibernateitems %}
+<li class="nav-item">
+    <a class="nav-link link-warning" href="{{ site.url }}{{ item.link }}">{{ item.title }}</a>
+</li>
+{% endfor %}
