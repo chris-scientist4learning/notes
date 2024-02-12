@@ -38,6 +38,56 @@ my_menu: menu-hibernate.html
 
 Il est possible d'utiliser un convertisseur (voir page sur les convertisseur).
 
+#### @ManyToOne
+
+- Il existe plusieurs occurence de l'entité annotée qui référence une autre entité.
+- A mettre au niveau de l'attribut.
+
+##### Exemple : extrait de code
+
+```
+@Entity
+public class Review {
+
+    /** ... */
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "movie_id)
+    private Movie movie;
+
+}
+```
+
+#### @OneToMany
+
+- Il existe plusieurs entités pour l'entité annotée.
+- A mettre au niveau de l'attribut.
+
+##### Exemple : extrait de code
+
+```
+@Entity
+public class Movie {
+
+    /* ... */
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "movie)
+    private List<Review> reviews;
+
+    public void addReview(Review review) {
+        if(review != null) {
+            this.reviews.add(review);
+            review.setMovie(this);
+        }
+    }
+
+    public List<Review> getReviews() {
+        return Collections.unmodifiableList(reviews);
+    }
+
+}
+```
+
 #### @Table
 
 - Avec le paramètre `name` il est possible alors de changer le nom de la table en base de données.
