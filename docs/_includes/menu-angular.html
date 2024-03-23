@@ -1,0 +1,5 @@
+{% for item in site.data.menuangularitems %}
+<li class="nav-item">
+    <a class="nav-link link-warning" href="{{ site.url }}{{ item.link }}">{{ item.title }}</a>
+</li>
+{% endfor %}
