@@ -3,11 +3,11 @@
 	"title": "Accueil"
 },
 {
-	"link": "{{ site.url }}/formation/vuejs/",
+	"link": "/formation/vuejs/",
 	"title": "Vue JS 3"
 },
 {
-	"link": "{{ site.url }}/formation/typescript/",
+	"link": "/formation/typescript/",
 	"title": "TypeScript"
 },
 {

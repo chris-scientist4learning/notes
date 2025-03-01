@@ -3,11 +3,11 @@
 	"title": "Accueil"
 },
 {
-	"link": "{{ site.url }}/formation/",
+	"link": "/formation/",
 	"title": "Formations"
 },
 {
-	"link": "{{ site.url }}/other/",
+	"link": "/other/",
 	"title": "Autres notes"
 },
 {
