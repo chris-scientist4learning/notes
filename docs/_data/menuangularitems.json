@@ -1,8 +1,24 @@
 [{
-	"link": "",
+	"link": "/formation/angular/",
 	"title": "Accueil"
 },
 {
-	"link": "/usefull-links/",
+	"link": "/formation/angular/about/",
+	"title": "A propos d'Angular"
+},
+{
+	"link": "/formation/angular/install/",
+	"title": "Configuration du poste de travail"
+},
+{
+	"link": "/formation/angular/commands/",
+	"title": "Commandes"
+},
+{
+	"link": "/formation/angular/lifecycle/",
+	"title": "Cycle de vie"
+},
+{
+	"link": "/formation/angular/usefull-links/",
 	"title": "Liens utiles"
 }]
