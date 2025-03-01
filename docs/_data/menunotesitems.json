@@ -3,6 +3,14 @@
 	"title": "Accueil"
 },
 {
+	"link": "{{ site.url }}/formation/",
+	"title": "Formations"
+},
+{
+	"link": "{{ site.url }}/other/",
+	"title": "Autres notes"
+},
+{
 	"link": "/usefull-links/",
 	"title": "Liens utiles"
 }]

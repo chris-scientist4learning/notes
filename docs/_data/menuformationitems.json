@@ -1,0 +1,16 @@
+[{
+	"link": "",
+	"title": "Accueil"
+},
+{
+	"link": "{{ site.url }}/formation/vuejs/",
+	"title": "Vue JS 3"
+},
+{
+	"link": "{{ site.url }}/formation/typescript/",
+	"title": "TypeScript"
+},
+{
+	"link": "/usefull-links/",
+	"title": "Liens utiles"
+}]

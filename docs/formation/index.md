@@ -1,37 +1,37 @@
 ---
 layout: default
-title: "Accueil"
+title: "Accueil Formation"
 permalink: /
 lang: fr
-my_menu: menu-notes.html
+my_menu: menu-formation.html
 ---
 
 <div class="row" style="max-width: 95%;" >
     <div class="col-sm-6" >
         <div class="card text-center text-white bg-secondary">
             <div class="card-header">
-                Formations
+                VueJS 3
             </div>
             <div class="card-body">
-                <p class="card-text">Notes relatives à des formations.</p>
-                <a href="{{ site.url }}/formation/" class="btn btn-primary">Aller voir les notes</a>
+                <p class="card-text">Notes relatives à une formation VueJS 3.</p>
+                <a href="{{ site.url }}/formation/vuejs/" class="btn btn-primary">Aller voir les notes</a>
             </div>
             <div class="card-footer text-dark">
-                2 Formations en lignes
+                Mars 2022
             </div>
         </div>
     </div>
     <div class="col-sm-6" >
         <div class="card text-center text-white bg-secondary">
             <div class="card-header">
-                Autres notes
+                Typescript
             </div>
             <div class="card-body">
-                <p class="card-text">Notes hors formation.</p>
-                <a href="{{ site.url }}/other/" class="btn btn-primary">Aller voir les notes</a>
+                <p class="card-text">Notes relatives à une formation Typescript.</p>
+                <a href="{{ site.url }}/formation/typescript/" class="btn btn-primary">Aller voir les notes</a>
             </div>
             <div class="card-footer text-dark">
-                1 Note partagé
+                Mars 2022
             </div>
         </div>
     </div>
