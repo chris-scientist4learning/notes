@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Accueil Autres Notes"
-permalink: /
+permalink: /other/
 lang: fr
 my_menu: menu-notes.html
 ---

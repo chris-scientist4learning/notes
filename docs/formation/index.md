@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Accueil Formation"
-permalink: /
+permalink: /formation/
 lang: fr
 my_menu: menu-formation.html
 ---
