@@ -10,4 +10,4 @@ my_menu: menu-angular.html
 
 Voici mes notes personnelles relative à une formation à **Angular**.
 
-Cette formation à eu lieu lors de l'été 2024.
+Cette formation à eu lieu lors de l'été 2024 et relancé en mai 2025.
