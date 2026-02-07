@@ -17,6 +17,8 @@ Pour créer un projet **nom-de-mon-application** taper la commande suivante : `n
 
 - `--minimal` : permet de générer un projet minimaliste, c'est-à-dire avec le strict minimum de fichiers et de fonctionnalités nécessaires pour démarrer une application.
 - `--style=css` : indique que le style sera géré en CSS.
+- `--no-ssr` : pour désactiver le rendu côté serveur.
+- `--no-routing` : pour désactiver le système de routes.
 
 #### Arborescence du projet
 
