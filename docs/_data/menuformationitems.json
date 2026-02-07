@@ -3,12 +3,12 @@
 	"title": "Accueil"
 },
 {
-	"link": "/formation/vuejs/",
-	"title": "Vue JS 3"
-},
-{
 	"link": "/formation/angular/",
 	"title": "Angular"
+},
+{
+	"link": "/formation/vuejs/",
+	"title": "Vue JS 3"
 },
 {
 	"link": "/formation/typescript/",
