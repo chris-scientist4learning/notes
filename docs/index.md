@@ -17,7 +17,7 @@ my_menu: menu-notes.html
                 <a href="{{ site.url }}/formation/" class="btn btn-primary">Aller voir les notes</a>
             </div>
             <div class="card-footer text-dark">
-                2 Formations en lignes
+                3 Formations en lignes
             </div>
         </div>
     </div>
