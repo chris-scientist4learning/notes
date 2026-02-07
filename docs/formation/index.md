@@ -35,6 +35,8 @@ my_menu: menu-formation.html
             </div>
         </div>
     </div>
+</div>
+<div class="row" style="max-width: 95%;" >
     <div class="col-sm-6" >
         <div class="card text-center text-white bg-secondary">
             <div class="card-header">
